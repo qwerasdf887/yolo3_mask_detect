@@ -11,20 +11,20 @@
 2. Python 3.5~3.7
 3. OpenCV 3~4
 
-##h5 weight
+## h5 weight
 
 [h5 weight](https://drive.google.com/file/d/1yUIntmmEdBWiGHoagWiR2WAVpGErlQk0/view?usp=sharing)
 
-##demo video
+## demo video
 
 [video](https://drive.google.com/file/d/1_DMYV3FriaU3FCcmsSsRIWOeihkAtpAc/view?usp=sharing)
 
-##更改detect.py中影像路徑即可觀看運行結果
+## 更改detect.py中影像路徑即可觀看運行結果
 
 影片位置(可改為網路攝影機等設備)
     video = cv2.VideoCapture('./mask.mp4')
 	
-##Training
+## Training
 至Kaggle下載檔案並且解壓縮至目錄下
 修改train_on_xml.py相對應的一些資訊即可自行訓練
 最好使用pre-trained好的weight
@@ -33,5 +33,5 @@
 python convert.py yolov3.cfg yolov3.weights yolo.h5
 ```
 
-##目前缺點
+## 目前缺點
 因為training data沒有畫面佔比大的train data，所以佔比大的偵測不到。
